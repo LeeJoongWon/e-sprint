@@ -121,7 +121,7 @@ buttons.addEventListener('click', function (event) {
                 isDecimalEmpty = true;
             } else if (firstNum !== '' && previousNum !== '') {
                 /* 퍼스트 넘이 비어있지 않고  프리비어스키가 비어있지 않을때
-                나이트메어 마지막 문제 해결용 (이해 못함 .... )
+                나이트메어 마지막 문제 해결용
                 1,0,0,.,.,1,2,5,2,+,1,2,+,1,5,-,-,2,3,-,1,4,4,2,/,2,3,/,/,1,2,*,2,3,Enter
                 를 연속으로 누르면 -111.48956666666668이(가) 화면에 표시되어야 합니다.
             */
@@ -159,7 +159,7 @@ buttons.addEventListener('click', function (event) {
         }
 
         if (action === 'calculate') {
-            //TODO 코드정리 필요함 if문을 수정하면 if문갯수를 줄이거나 가속성이 좋아질듯
+            //TODO 코드정리 필요함 if문을 수정하면 가속성이 좋아질듯
             //기본적으로 프리비우스넘이 존재할떄만 실행
             if (previousNum !== '') {
                 //프리비우스 키가 엔터일때 - 엔터 연속입력 처리 ex> Enter Enter Enter...
