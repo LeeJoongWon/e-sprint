@@ -250,6 +250,7 @@ describe('Advanced Challenges', function () {
             })
             .then((res) => {
                 const flight = JSON.parse(res.text);
+                console.log(flight);
                 expect(flight).toEqual({
                     uuid: 'af6fa55c-da65-47dd-af23-578fdba99bed',
                     departure: 'CJU',
