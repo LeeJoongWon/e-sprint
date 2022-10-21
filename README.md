@@ -117,7 +117,7 @@ delay 함수와 sleep 함수의 차이점을 확인하세요
 
 fetch API를 사용해보세요
 
-#React Twittler Intro
+# 8. [React Twittler Intro](https://github.com/LeeJoongWon/fe-sprint/tree/master/fe-sprint-react-twittler-intro)
 
 React Twittler Intro 과제에서는 유명 SNS 서비스인 Twitter와 유사한 Twittler를 React로 개발합니다. 
 
@@ -131,11 +131,11 @@ React Twittler Intro 과제에서는 유명 SNS 서비스인 Twitter와 유사�
   * 컴포넌트를 먼저 개발하는 Bottom-up 개발 방식에 익숙해진다.
   * npm script로 리액트 개발에 필요한 기본적인 툴을 사용할 수 있다.
 
-# 8. [React Twittler SPA](https://github.com/LeeJoongWon/fe-sprint/tree/master/fe-sprint-react-twittler-spa)
+# 9. [React Twittler SPA](https://github.com/LeeJoongWon/fe-sprint/tree/master/fe-sprint-react-twittler-spa)
 
 React Twittler SPA 스프린트에서는 기존 React Twittler Intro 에 React Router 기능을 담은 Twittler 로 발전시킵니다.
 
-# 9. [React Twittler State & Props](https://github.com/LeeJoongWon/fe-sprint/tree/master/fe-sprint-react-twittler-state-props)
+# 10. [React Twittler State & Props](https://github.com/LeeJoongWon/fe-sprint/tree/master/fe-sprint-react-twittler-state-props)
 
 React Twittler State & Props 스프린트에서는 지금까지 배운 state, props를 활용하여 유저 parkhacker의 Twittler에서의 트윗 전송 기능을 구현합니다. 
 
@@ -149,7 +149,7 @@ React Twittler State & Props 스프린트에서는 지금까지 배운 state, pr
   * 바람직한 컴포넌트 구조와 state와 props의 위치에 대해 고민한다.
 
 
-# 10. [StatesAirline Client](https://github.com/LeeJoongWon/fe-sprint/tree/master/fe-sprint-statesairline-client)
+# 11. [StatesAirline Client](https://github.com/LeeJoongWon/fe-sprint/tree/master/fe-sprint-statesairline-client)
 
 StatesAirline Client 앱은 아직 미완성 상태입니다. 
 
@@ -166,13 +166,13 @@ StatesAirline Client 앱은 아직 미완성 상태입니다.
   * Effect Hook을 활용하여 비동기 호출 및 Ajax 요청과 같은 side effect를 처리할 수 있다.
   * 네트워크 요청이 느릴 경우에 표시되는 로딩 화면을 구현할 수 있다.
 
-# 11. [Mini Node Server](https://github.com/LeeJoongWon/fe-sprint/tree/master/fe-sprint-mini-node-server)
+# 12. [Mini Node Server](https://github.com/LeeJoongWon/fe-sprint/tree/master/fe-sprint-mini-node-server)
 
 이번 과제에서는 Node.js의 [http 모듈](https://nodejs.org/dist/latest-v16.x/docs/api/http.html)을 이용해 웹 서버를 만듭니다
 
 . Node.js가 제공하고 있는 [HTTP 트랜잭션 해부](https://nodejs.org/ko/docs/guides/anatomy-of-an-http-transaction/)(Anatomy of an HTTP Transaction) 공식 가이드 문서를 통해 Mini-Node Server를 완성하는 데 큰 도움을 받을 수 있습니다.
 
-# 12. [StatesAirline Server](https://github.com/LeeJoongWon/fe-sprint/tree/master/fe-sprint-statesairline-server)
+# 13. [StatesAirline Server](https://github.com/LeeJoongWon/fe-sprint/tree/master/fe-sprint-statesairline-server)
 
 StatesAirline 서버를 구현합니다. 
 
@@ -193,7 +193,7 @@ router ,controller가 어떠한 역할을 수행하는지 관찰해 보세요. �
   * Flight API 와 Book API 에서 정의한 API 요청을 수행하는 코드를 작성합니다.
   * Flight Router, Book Router 에 있는 모든 테스트를 통과해야 합니다.
 
-# 13. [my-agora-states-server](https://github.com/LeeJoongWon/fe-sprint/tree/master/fe-sprint-my-agora-states-server)
+# 14. [my-agora-states-server](https://github.com/LeeJoongWon/fe-sprint/tree/master/fe-sprint-my-agora-states-server)
 
 * my-agora-states-server/app.js
   * 모든 Origin, 경로에 대해 CORS 요청을 허용하게 미들웨어를 적용합니다.  
