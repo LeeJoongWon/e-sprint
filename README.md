@@ -13,8 +13,33 @@
   * 두 숫자의 사칙연산을 구현할 수 있다.
   * 숫자 버튼을 눌렀을 때, 계산기의 화면에 숫자가 보여야 합니다.
   * 숫자 버튼을 여러 번 눌렀을 때, 계산기 화면에 숫자가 이어붙여져야(concatenation) 합니다.
+  * 연산자 버튼을 눌렀을 때, 계산기 화면에 보이는 숫자를 따로 저장하고 계산할 준비해야 합니다.
+  * Enter 버튼을 눌렀을 때, 이전에 저장한 숫자와 계산기 화면에 보이는 숫자를 계산한 결과를 화면에 보여줘야 합니다.
+  * 두 정수의 사칙연산을 수행하는 calculate 함수를 작성합니다.
+  * AC 버튼을 누르면 초기 상태로 돌아갈 수 있어야 합니다.
 
 두 숫자의 사칙연산을 할 수 있는 계산기를 구현합니다.
+
+# 2. [JavaScript Koans](https://github.com/LeeJoongWon/fe-sprint/tree/master/fe-sprint-javascript-koans)
+
+* 목표 - JavaScript의 주요 개념인 아래의 내용에 대해 설명할 수 있어야 한다.
+  * JavaScript의 타입
+  * 변수 선언 키워드 let과 const
+  * 화살표 함수
+  * 스코프
+  * 배열
+  * 객체
+  * spread
+  * 구조분해할당
+
+# 3. [validation-check](https://github.com/codestates-seb/fe-sprint-validation-check)
+
+* validation-check(유효성 검사)
+* * 특정 값은 반드시 입력해야 합니다. (아이디, 이메일, 비밀번호, 이름, 전화번호 등)
+* 비밀번호는 n 자릿수 이상이어야 하고, 숫자나 특수문자를 반드시 포함해야 합니다.
+* 비밀번호와 비밀번호 확인란에 입력된 문자가 동일해야 합니다.
+* 신용카드의 경우, 입력한 신용카드의 번호가 유효해야 합니다.
+
 
 # 1. [Beesbeesbees](https://github.com/LeeJoongWon/fe-sprint/tree/master/fe-sprint-beesbeesbees)
 
@@ -123,10 +148,10 @@ router ,controller가 어떠한 역할을 수행하는지 관찰해 보세요. �
 # 9. [my-agora-states-server](https://github.com/LeeJoongWon/fe-sprint/tree/master/fe-sprint-my-agora-states-server)
 
 * my-agora-states-server/app.js
- * 모든 Origin, 경로에 대해 CORS 요청을 허용하게 미들웨어를 적용합니다.  
- * POST 요청 등에 포함된 body(payload)를 구조화하기 위한 미들웨어를 적용합니다.   
- * 서버 상태 확인을 위해 GET / 에서 상태 코드 200으로 응답합니다. 
- * discussionsRouter 를 이용하여 /discussions 경로로 라우팅합니다.
+  * 모든 Origin, 경로에 대해 CORS 요청을 허용하게 미들웨어를 적용합니다.  
+  * POST 요청 등에 포함된 body(payload)를 구조화하기 위한 미들웨어를 적용합니다.   
+  * 서버 상태 확인을 위해 GET / 에서 상태 코드 200으로 응답합니다. 
+  * discussionsRouter 를 이용하여 /discussions 경로로 라우팅합니다.
 
 * my-agora-states-server/router/discussions.js 
   * GET /discussions
