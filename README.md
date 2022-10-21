@@ -1,3 +1,3 @@
 # fe-sprint
  
-<h4>fe-sprint-async-and-promise<h4/>
+<h2>fe-sprint-async-and-promise<h2/>
