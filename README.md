@@ -1,9 +1,23 @@
 # fe-sprint
+
 코드스테이츠의 교육을 수강하면서 해결했던 sprint 모음집 입니다
 
 이름을 클릭하면 해당 sprint로 이동합니다
 
+# 1. [calculator](https://github.com/LeeJoongWon/fe-sprint/tree/master/fe-sprint-calculator)
+
+실제로 작동하는 계산기를 만듭니다
+
+* 학습 목표
+  * 계산기 Github repository에 작성된 HTML, CSS를 이해할 수 있다. 
+  * 두 숫자의 사칙연산을 구현할 수 있다.
+  * 숫자 버튼을 눌렀을 때, 계산기의 화면에 숫자가 보여야 합니다.
+  * 숫자 버튼을 여러 번 눌렀을 때, 계산기 화면에 숫자가 이어붙여져야(concatenation) 합니다.
+
+두 숫자의 사칙연산을 할 수 있는 계산기를 구현합니다.
+
 # 1. [Beesbeesbees](https://github.com/LeeJoongWon/fe-sprint/tree/master/fe-sprint-beesbeesbees)
+
 가장 고귀한 곤충인 꿀벌은, 일생 동안 특정 발달 단계를 하나하나 거칩니다.
 
 각 단계에는 꿀벌이 갖는 고유한 특징이 있습니다. 이 repository에는 다양한 종류의 꿀벌 Class가 존재합니다. 
@@ -11,6 +25,7 @@
 각 단계별로 꿀벌 Class가 있고, 이를 통해 class keyword를 이용한 상속을 학습합니다.
 
 # 2. [Underbar](https://github.com/LeeJoongWon/fe-sprint/tree/master/fe-sprint-underbar)
+
 고차 함수의 기본적인 사용법을 이해 해야됩니다.
 
 콜백 함수를 전달하여 사용할 수 있어야 합니다.
