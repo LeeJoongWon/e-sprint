@@ -73,7 +73,7 @@ Section1에서 배운 내용을 총 동원하여 나만의 멋진 아고라 스�
   * 아이디, 본문을 입력하고 버튼을 누르면 실제 화면에 디스커션이 추가되어야 합니다.
   * agoraStatesDiscussions 배열에 추가한 데이터가 실제 쌓여야 합니다.
 
-<b>Advanced Challenge<b/>
+Advanced Challenge
 * 현지 시간 적용
   * 샘플 시간을 잘 변형하여, 현지 시간에 맞게 표현합니다. (ex. 오전 10:02:17)
 * 페이지네이션 기능
