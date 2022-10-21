@@ -70,4 +70,37 @@ props를 이용하여, 부모 컴포넌트의 데이터를 자식 컴포넌트�
 바람직한 컴포넌트 구조와 state와 props의 위치에 대해 고민한다.
 
 
+# [StatesAirline Client](https://github.com/LeeJoongWon/fe-sprint/tree/master/fe-sprint-statesairline-client)
+
+StatesAirline Client 앱은 아직 미완성 상태입니다. 
+
+앞에서 배운 상태 끌어올리기, 데이터 흐름 개념을 활용하여 항공편 검색 기능을 구현합니다.
+
+이번 과제의 핵심은 네트워크 요청을 통해 항공편 리스트를 받아오고, 도착지 정보 검색 기능을 구현하는 것입니다. 
+
+이 기능 구현을 위해서 상태 갱신 함수를 어디로 전달할지, Effect hook을 어떻게 활용할 수 있을 지를 고민해 봅시다.
+
+* 학습 목표
+* 
+React의 데이터 흐름에 대해 이해하고 state를 전달할 수 있다.
+
+상태 끌어올리기를 활용하여, 원하는 컴포넌트에서 state를 변경할 수 있다.
+
+Side Effect의 개념에 대해서 이해할 수 있다.
+
+Effect Hook을 활용하여 비동기 호출 및 Ajax 요청과 같은 side effect를 처리할 수 있다.
+
+네트워크 요청이 느릴 경우에 표시되는 로딩 화면을 구현할 수 있다.
+
+# [Mini Node Server]
+
+이번 과제에서는 Node.js의 http 모듈을 이용해 웹 서버를 만듭니다
+
+. Node.js가 제공하고 있는 [HTTP 트랜잭션 해부](https://nodejs.org/ko/docs/guides/anatomy-of-an-http-transaction/)(Anatomy of an HTTP Transaction) 공식 가이드 문서를 통해 Mini-Node Server를 완성하는 데 큰 도움을 받을 수 있습니다.
+
+
+
+
+
+
 
