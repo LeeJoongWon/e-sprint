@@ -1,7 +1,7 @@
 # fe-sprint
 코드스테이츠의 교육을 수강하면서 해결했던 과제 모음집 입니다
 
-# [Beesbeesbees][Google](https://google.com, "google link")
+# [Beesbeesbees][Beesbeesbees](https://google.com, "google link")
 가장 고귀한 곤충인 꿀벌은, 일생 동안 특정 발달 단계를 하나하나 거칩니다.
 
 각 단계에는 꿀벌이 갖는 고유한 특징이 있습니다. 이 repository에는 다양한 종류의 꿀벌 Class가 존재합니다. 
