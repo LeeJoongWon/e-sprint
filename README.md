@@ -1,7 +1,7 @@
 # fe-sprint
-코드스테이츠의 교육을 수강하면서 해결했던 과제 모음집 입니다
+코드스테이츠의 교육을 수강하면서 해결했던 sprint 모음집 입니다
 
-과제 이름을 클릭하면 해당 과제로 이동합니다
+이름을 클릭하면 해당 sprint로 이동합니다
 
 # [Beesbeesbees](https://github.com/LeeJoongWon/fe-sprint/tree/master/fe-sprint-beesbeesbees)
 가장 고귀한 곤충인 꿀벌은, 일생 동안 특정 발달 단계를 하나하나 거칩니다.
