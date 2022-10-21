@@ -125,16 +125,27 @@ router ,controller가 어떠한 역할을 수행하는지 관찰해 보세요. �
 # 9. [my-agora-states-server](https://github.com/LeeJoongWon/fe-sprint/tree/master/fe-sprint-my-agora-states-server)
 
 * my-agora-states-server/app.js
+ 
  * 모든 Origin, 경로에 대해 CORS 요청을 허용하게 미들웨어를 적용합니다.
- * POST 요청 등에 포함된 body(payload)를 구조화하기 위한 미들웨어를 적용합니다.
+  
+ * POST 요청 등에 포함된 body(payload)를 구조화하기 위한 미들웨어를 적용합니다. 
+  
  * 서버 상태 확인을 위해 GET / 에서 상태 코드 200으로 응답합니다.
+ 
  * discussionsRouter 를 이용하여 /discussions 경로로 라우팅합니다.
- * 
+
 * my-agora-states-server/router/discussions.js
+ 
  * GET /discussions
+  
  * 모든 discussion 목록을 조회하는 라우터를 작성합니다.
+
  * GET /discussions/:id
+  
  * discussion 하나를 조회하는 라우터를 작성합니다.
+  
 * my-agora-states-server/controller/index.js
+ 
  * discussionsController.findAll (모든 discussion 목록 조회)
+  
  * discussionsController.findById (discussion 하나를 조회)
