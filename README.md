@@ -3,14 +3,14 @@
 
 이름을 클릭하면 해당 sprint로 이동합니다
 
-# 1.[Beesbeesbees](https://github.com/LeeJoongWon/fe-sprint/tree/master/fe-sprint-beesbeesbees)
+# 1. [Beesbeesbees](https://github.com/LeeJoongWon/fe-sprint/tree/master/fe-sprint-beesbeesbees)
 가장 고귀한 곤충인 꿀벌은, 일생 동안 특정 발달 단계를 하나하나 거칩니다.
 
 각 단계에는 꿀벌이 갖는 고유한 특징이 있습니다. 이 repository에는 다양한 종류의 꿀벌 Class가 존재합니다. 
 
 각 단계별로 꿀벌 Class가 있고, 이를 통해 class keyword를 이용한 상속을 학습합니다.
 
-# 2.[Underbar](https://github.com/LeeJoongWon/fe-sprint/tree/master/fe-sprint-underbar)
+# 2. [Underbar](https://github.com/LeeJoongWon/fe-sprint/tree/master/fe-sprint-underbar)
 고차 함수의 기본적인 사용법을 이해 해야됩니다.
 
 콜백 함수를 전달하여 사용할 수 있어야 합니다.
@@ -21,7 +21,7 @@
 
 자바스크립트 배열 내장 메서드(forEach, map, filter, reduce 등)의 원리를 이해 해야됩니다.
 
-# 3.[async-and-promise](https://github.com/LeeJoongWon/fe-sprint/tree/master/fe-sprint-async-and-promise)
+# 3. [async-and-promise](https://github.com/LeeJoongWon/fe-sprint/tree/master/fe-sprint-async-and-promise)
 
 callback, Promise, async & await를 각각 구현해보세요
 
@@ -47,11 +47,11 @@ React Twittler Intro 과제에서는 유명 SNS 서비스인 Twitter와 유사�
 
 npm script로 리액트 개발에 필요한 기본적인 툴을 사용할 수 있다.
 
-# 4.[React Twittler SPA](https://github.com/LeeJoongWon/fe-sprint/tree/master/fe-sprint-react-twittler-spa)
+# 4. [React Twittler SPA](https://github.com/LeeJoongWon/fe-sprint/tree/master/fe-sprint-react-twittler-spa)
 
 React Twittler SPA 스프린트에서는 기존 React Twittler Intro 에 React Router 기능을 담은 Twittler 로 발전시킵니다.
 
-# 5.[React Twittler State & Props](https://github.com/LeeJoongWon/fe-sprint/tree/master/fe-sprint-react-twittler-state-props)
+# 5. [React Twittler State & Props](https://github.com/LeeJoongWon/fe-sprint/tree/master/fe-sprint-react-twittler-state-props)
 
 React Twittler State & Props 스프린트에서는 지금까지 배운 state, props를 활용하여 유저 parkhacker의 Twittler에서의 트윗 전송 기능을 구현합니다. 
 
@@ -70,7 +70,7 @@ props를 이용하여, 부모 컴포넌트의 데이터를 자식 컴포넌트�
 바람직한 컴포넌트 구조와 state와 props의 위치에 대해 고민한다.
 
 
-# 6.[StatesAirline Client](https://github.com/LeeJoongWon/fe-sprint/tree/master/fe-sprint-statesairline-client)
+# 6. [StatesAirline Client](https://github.com/LeeJoongWon/fe-sprint/tree/master/fe-sprint-statesairline-client)
 
 StatesAirline Client 앱은 아직 미완성 상태입니다. 
 
@@ -81,7 +81,7 @@ StatesAirline Client 앱은 아직 미완성 상태입니다.
 이 기능 구현을 위해서 상태 갱신 함수를 어디로 전달할지, Effect hook을 어떻게 활용할 수 있을 지를 고민해 봅시다.
 
 * 학습 목표
-* 
+
 React의 데이터 흐름에 대해 이해하고 state를 전달할 수 있다.
 
 상태 끌어올리기를 활용하여, 원하는 컴포넌트에서 state를 변경할 수 있다.
@@ -92,15 +92,31 @@ Effect Hook을 활용하여 비동기 호출 및 Ajax 요청과 같은 side effe
 
 네트워크 요청이 느릴 경우에 표시되는 로딩 화면을 구현할 수 있다.
 
-# [Mini Node Server](https://github.com/LeeJoongWon/fe-sprint/tree/master/fe-sprint-mini-node-server)
+# 7. [Mini Node Server](https://github.com/LeeJoongWon/fe-sprint/tree/master/fe-sprint-mini-node-server)
 
-이번 과제에서는 Node.js의 http 모듈을 이용해 웹 서버를 만듭니다
+이번 과제에서는 Node.js의 [http 모듈](https://nodejs.org/dist/latest-v16.x/docs/api/http.html)을 이용해 웹 서버를 만듭니다
 
 . Node.js가 제공하고 있는 [HTTP 트랜잭션 해부](https://nodejs.org/ko/docs/guides/anatomy-of-an-http-transaction/)(Anatomy of an HTTP Transaction) 공식 가이드 문서를 통해 Mini-Node Server를 완성하는 데 큰 도움을 받을 수 있습니다.
 
+# 8. [StatesAirline Server]()
 
+StatesAirline 서버를 구현합니다. 
 
+이 서버는 Express 프레임워크를 이용해 만들고, 로컬 호스트와 연결합니다. 
 
+States Airline Server는 클라이언트의 요청에 따라 항공편과 예약 데이터를 조회, 생성, 수정, 그리고 삭제하는 기능을 수행할 수 있어야 합니다. 
 
+"States Airline Server" 스프린트를 통해 Express 프로젝트에서 사용하는 폴더 구조를 이해하고, 
+
+Express를 활용하여 API 요청을 처리하는 방법을 실습하게 됩니다. 코드를 작성하면서 폴더 구조가 어떻게 구성이 되어 있고 
+
+router ,controller가 어떠한 역할을 수행하는지 관찰해 보세요. 문제를 해결하기 전에, 문제가 무엇인지 파악하는 것이 우선이 돼야 합니다. 
+
+생산적인 고민을 통해 문제를 정의하고, 차근차근 해결할 수 있어야 합니다.
+
+* 학습 목표
+Express 프레임워크를 사용하여 States Airline API Server를 개발합니다.
+Flight API 와 Book API 에서 정의한 API 요청을 수행하는 코드를 작성합니다.
+Flight Router, Book Router 에 있는 모든 테스트를 통과해야 합니다.
 
 
