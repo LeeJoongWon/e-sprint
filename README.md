@@ -17,8 +17,7 @@
   * Enter 버튼을 눌렀을 때, 이전에 저장한 숫자와 계산기 화면에 보이는 숫자를 계산한 결과를 화면에 보여줘야 합니다.
   * 두 정수의 사칙연산을 수행하는 calculate 함수를 작성합니다.
   * AC 버튼을 누르면 초기 상태로 돌아갈 수 있어야 합니다.
-
-두 숫자의 사칙연산을 할 수 있는 계산기를 구현합니다.
+  * 두 숫자의 사칙연산을 할 수 있는 계산기를 구현합니다.
 
 # 2. [JavaScript Koans](https://github.com/LeeJoongWon/fe-sprint/tree/master/fe-sprint-javascript-koans)
 
