@@ -59,15 +59,15 @@ React Twittler State & Props 스프린트에서는 지금까지 배운 state, pr
 
 * 학습 목표
 
- * JSX 문법의 기본과 컴포넌트 기반 개발에 대해서 숙지한다.
+  * JSX 문법의 기본과 컴포넌트 기반 개발에 대해서 숙지한다.
 
- * React Router DOM으로 React에서 SPA(Single-Page Application)을 구현할 수 있다.
+  * React Router DOM으로 React에서 SPA(Single-Page Application)을 구현할 수 있다.
 
- * state hook을 이용하여, 컴포넌트에서 데이터를 변화시킬 수 있다.
+  * state hook을 이용하여, 컴포넌트에서 데이터를 변화시킬 수 있다.
 
- * props를 이용하여, 부모 컴포넌트의 데이터를 자식 컴포넌트로 전달할 수 있다.
+  * props를 이용하여, 부모 컴포넌트의 데이터를 자식 컴포넌트로 전달할 수 있다.
 
- * 바람직한 컴포넌트 구조와 state와 props의 위치에 대해 고민한다.
+  * 바람직한 컴포넌트 구조와 state와 props의 위치에 대해 고민한다.
 
 
 # 6. [StatesAirline Client](https://github.com/LeeJoongWon/fe-sprint/tree/master/fe-sprint-statesairline-client)
@@ -82,15 +82,15 @@ StatesAirline Client 앱은 아직 미완성 상태입니다.
 
 * 학습 목표
 
- * React의 데이터 흐름에 대해 이해하고 state를 전달할 수 있다.
+  * React의 데이터 흐름에 대해 이해하고 state를 전달할 수 있다.
 
- * 상태 끌어올리기를 활용하여, 원하는 컴포넌트에서 state를 변경할 수 있다.
+  * 상태 끌어올리기를 활용하여, 원하는 컴포넌트에서 state를 변경할 수 있다.
 
- * Side Effect의 개념에 대해서 이해할 수 있다.
+  * Side Effect의 개념에 대해서 이해할 수 있다.
 
- * Effect Hook을 활용하여 비동기 호출 및 Ajax 요청과 같은 side effect를 처리할 수 있다.
+  * Effect Hook을 활용하여 비동기 호출 및 Ajax 요청과 같은 side effect를 처리할 수 있다.
 
- * 네트워크 요청이 느릴 경우에 표시되는 로딩 화면을 구현할 수 있다.
+  * 네트워크 요청이 느릴 경우에 표시되는 로딩 화면을 구현할 수 있다.
 
 # 7. [Mini Node Server](https://github.com/LeeJoongWon/fe-sprint/tree/master/fe-sprint-mini-node-server)
 
@@ -116,11 +116,11 @@ router ,controller가 어떠한 역할을 수행하는지 관찰해 보세요. �
 
 * 학습 목표
 
- * Express 프레임워크를 사용하여 States Airline API Server를 개발합니다.
+  * Express 프레임워크를 사용하여 States Airline API Server를 개발합니다.
 
- * Flight API 와 Book API 에서 정의한 API 요청을 수행하는 코드를 작성합니다.
+  * Flight API 와 Book API 에서 정의한 API 요청을 수행하는 코드를 작성합니다.
 
- * Flight Router, Book Router 에 있는 모든 테스트를 통과해야 합니다.
+  * Flight Router, Book Router 에 있는 모든 테스트를 통과해야 합니다.
 
 # 9. [my-agora-states-server](https://github.com/LeeJoongWon/fe-sprint/tree/master/fe-sprint-my-agora-states-server)
 
