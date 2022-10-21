@@ -92,7 +92,7 @@ Effect Hook을 활용하여 비동기 호출 및 Ajax 요청과 같은 side effe
 
 네트워크 요청이 느릴 경우에 표시되는 로딩 화면을 구현할 수 있다.
 
-# [Mini Node Server]
+# [Mini Node Server](https://github.com/LeeJoongWon/fe-sprint/tree/master/fe-sprint-mini-node-server)
 
 이번 과제에서는 Node.js의 http 모듈을 이용해 웹 서버를 만듭니다
 
