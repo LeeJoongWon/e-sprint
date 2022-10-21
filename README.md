@@ -39,13 +39,13 @@ React Twittler Intro 과제에서는 유명 SNS 서비스인 Twitter와 유사�
 
 * 학습 목표
 
-리액트, JSX 기본 문법을 익힌다.
+** 리액트, JSX 기본 문법을 익힌다.
 
-리액트, JSX로 트위틀러를 하드 코딩할 수 있다.
+** 리액트, JSX로 트위틀러를 하드 코딩할 수 있다.
 
-컴포넌트를 먼저 개발하는 Bottom-up 개발 방식에 익숙해진다.
+** 컴포넌트를 먼저 개발하는 Bottom-up 개발 방식에 익숙해진다.
 
-npm script로 리액트 개발에 필요한 기본적인 툴을 사용할 수 있다.
+** npm script로 리액트 개발에 필요한 기본적인 툴을 사용할 수 있다.
 
 # 4. [React Twittler SPA](https://github.com/LeeJoongWon/fe-sprint/tree/master/fe-sprint-react-twittler-spa)
 
