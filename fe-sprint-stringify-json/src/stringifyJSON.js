@@ -26,10 +26,44 @@
  * 하지만 이 과제의 목적은 재귀를 공부하는 것이니, 처음부터 구현해봐야겠지요?:
  */
 function stringifyJSON(obj) {
-  // your code goes here
-};
+    // your code goes here
+    if (typeof obj === 'number' || typeof obj === 'boolean' || obj === null) {
+        return `${obj}`;
+    }
+
+    if (typeof obj === 'string') {
+        return `"${obj}"`;
+    }
+
+    if (Array.isArray(obj)) {
+        let answer = '';
+
+        for (let el of obj) {
+            answer += stringifyJSON(el) + ',';
+        }
+
+        answer = answer.slice(0, -1); // 마지막에 붙어있는 ',' 제거
+        return `[${answer}]`;
+    }
+
+    if (typeof obj === 'object') {
+        let answer = '';
+
+        for (let key in obj) {
+            // 함수와 undefined는 stringify되지 않습니다.
+            if (typeof obj[key] === 'function' || obj[key] === undefined) {
+                continue;
+            }
+
+            answer += `${stringifyJSON(key)}:${stringifyJSON(obj[key])},`;
+        }
+
+        answer = answer.slice(0, -1); // 마지막에 붙어있는 ',' 제거 *
+        return `{${answer}}`;
+    }
+}
 
 // 다음 코드는 결과 제출을 위한 코드입니다. 신경 쓰지 않아도 좋습니다.
-if (typeof window === "undefined") {
-  module.exports = stringifyJSON;
+if (typeof window === 'undefined') {
+    module.exports = stringifyJSON;
 }
