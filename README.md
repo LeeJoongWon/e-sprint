@@ -35,10 +35,58 @@
 # 3. [validation-check](https://github.com/codestates-seb/fe-sprint-validation-check)
 
 * validation-check(유효성 검사)
-* * 특정 값은 반드시 입력해야 합니다. (아이디, 이메일, 비밀번호, 이름, 전화번호 등)
-* 비밀번호는 n 자릿수 이상이어야 하고, 숫자나 특수문자를 반드시 포함해야 합니다.
-* 비밀번호와 비밀번호 확인란에 입력된 문자가 동일해야 합니다.
-* 신용카드의 경우, 입력한 신용카드의 번호가 유효해야 합니다.
+  * 특정 값은 반드시 입력해야 합니다. (아이디, 이메일, 비밀번호, 이름, 전화번호 등)
+  * 비밀번호는 n 자릿수 이상이어야 하고, 숫자나 특수문자를 반드시 포함해야 합니다.
+  * 비밀번호와 비밀번호 확인란에 입력된 문자가 동일해야 합니다.
+  * 신용카드의 경우, 입력한 신용카드의 번호가 유효해야 합니다.
+이런 기능을 유효성 검사(Form validation)라고 부릅니다.
+
+* Before You Learn
+  * HTML & CSS 기초
+  * DOM 기초와 CRUD
+
+* 학습 목표
+  * DOM 기초 실습을 통해, 구체적인 사용법을 익힐 수 있다.
+  * querySelector를 활용하여, HTML 엘리먼트 정보를 가져올 수 있다.
+  * oncilck, onkeyup 속성이나 addEventListener 메서드로 이벤트 핸들러 함수를 HTML 엘리먼트에 적용할 수 있다.
+  * 이벤트 핸들러 함수에서 이벤트가 발생한 곳의 정보를 확인할 수 있다.
+  * 이벤트 핸들러 함수로 유효성 검사를 실행할 수 있다.
+  * 유효성 검사에 필요한 기술 요소를 익힐 수 있다.
+  * 유효성 검사에 필요한 HTML 엘리먼트, CSS 속성이 무엇인지 알 수 있다.
+  * 엘리먼트가 화면에 표시되거나 사라지게 만들 수 있다. (display: none)
+  * 유효성 검사에서 활용할 수 있는 정규 표현식의 기초 사용법에 대해 익힐 수 있다. (advanced)
+  * 관심사 분리를 적용하거나, 유효성 검사 함수를 따로 분리해서 설계할 수 있다. (advanced)
+
+# 4. [sprint-my-agora-states]
+
+Section1에서 배운 내용을 총 동원하여 나만의 멋진 아고라 스테이츠를 만듭니다.
+
+* 디스커션 나열 기능
+  * script.js를 수정하여 agoraStatesDiscussions 배열의 데이터를 나열할 수 있게 구현합니다.
+* CSS
+  * 아고라 스테이츠 질문 리스트가 중앙으로 와야 합니다.
+  * style.css를 수정하여 멋지고 아름답게 나만의 아고라 스테이츠를 꾸밉니다.
+  *colorhunt, dribbble에서 적절한 색 조합, 디자인을 참고합니다.
+* 디스커션 추가 기능
+  * script.js를 수정하여 디스커션 추가 기능을 구현합니다.
+  * section.form__container 요소에 새로운 아고라 스테이츠 질문을 추가할 수 있는 입력 폼을 제작합니다. 형식은 자유입니다.
+  * 아이디, 본문을 입력하고 버튼을 누르면 실제 화면에 디스커션이 추가되어야 합니다.
+  * agoraStatesDiscussions 배열에 추가한 데이터가 실제 쌓여야 합니다.
+
+Advanced Challenge
+* 현지 시간 적용
+  * 샘플 시간을 잘 변형하여, 현지 시간에 맞게 표현합니다. (ex. 오전 10:02:17)
+* 페이지네이션 기능
+  * 페이지네이션에 대해서 스스로 학습합니다.
+  * 한 페이지에 10개씩 디스커션이 보여야 합니다.
+  * 다음 페이지로 넘어갈 수 있어야 합니다.
+  * 이전 페이지로 돌아올 수 있어야 합니다.
+  * 다음 페이지가 없거나, 이전 페이지가 없는 경우 페이지를 유지해야 합니다.
+* 디스커션 유지 기능
+  * LocalStorage에 대해서 스스로 학습하고, 새롭게 추가하는 Discussion이 페이지를 새로고침해도 유지되도록 제작합니다.
+  
+* Github Page 배포
+  * https://leejoongwon.github.io/fe-sprint-my-agora-states/
 
 
 # 1. [Beesbeesbees](https://github.com/LeeJoongWon/fe-sprint/tree/master/fe-sprint-beesbeesbees)
