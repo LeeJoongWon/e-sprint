@@ -210,3 +210,30 @@ router ,controller가 어떠한 역할을 수행하는지 관찰해 보세요. �
 * my-agora-states-server/controller/index.js 
   * discussionsController.findAll (모든 discussion 목록 조회)  
   * discussionsController.findById (discussion 하나를 조회)
+
+# 15. [stringify-json](https://github.com/LeeJoongWon/fe-sprint/tree/master/fe-sprint-stringify-json)
+
+재귀를 이용해 메서드 JSON.stringify를 함수의 형태로 직접 구현합니다.
+
+* 개념학습
+  * 과제를 진행하기 전 JSON과 트리 구조에 대해 학습합니다.
+
+* 학습 목표
+  * JSON 구조가 재귀 함수를 사용할 수 있는 트리 구조임을 이해할 수 있다.
+  * JSON.stringify 와 JSON.parse 가 serialize, deserialize라는 것을 이해할 수 있다.
+  * JSON.stringify 와 JSON.parse 를 사용하여 자바스크립트 값과 JSON을 넘나들 수 있다.
+  * JSON에 재귀 호출을 사용할 때, 어디에 사용해야 할지 이해할 수 있다.
+
+# 16. [tree-ui](https://github.com/LeeJoongWon/fe-sprint/tree/master/fe-sprint-tree-ui)
+
+Tree UI는 화면을 구성할 때 재귀를 사용하는 가장 대표적인 예시입니다. 
+
+직접 코드를 작성하면서 재귀로 문제를 해결하는 방법을 좀 더 익혀보도록 합시다.
+
+* Before You Learn
+  * HTML & CSS 기초
+  * DOM 기초와 CRUD
+
+* 학습 목표
+  * Tree UI가 재귀를 사용할 수 있는 구조임을 이해할 수 있다.
+  * 재귀를 사용해서 Tree UI를 구현할 수 있다.
